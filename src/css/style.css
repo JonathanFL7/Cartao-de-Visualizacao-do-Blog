@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: var(--background);
+    font-family: Figtree;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    background-color: var(--background-blog);
+    padding: 23px;
+
+    border-radius: 20px;
+    border: 1px solid black;
+
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.blog-card .image {
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.blog-card .status {
+    background-color: var(--background);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.blog-card .published {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 0 17px;
+}
+
+.blog-card .title {
+    font-weight: 800;
+}
+
+.blog-card .description {
+    color: var(--color-500);
+    padding: 20px 0;
+    line-height: 24px;
+}
+
+.blog-card .blog-autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.blog-card .blog-autor .avatar{
+    width: 32px;
+}
+
+.blog-card .blog-autor .name {
+    font-weight: 800;
+    font-size: 14px;
+    padding-left: 10px;
+}
